@@ -1,0 +1,295 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.main-title {
+  color: #9db0d1;
+  font-size: 60px;
+  font-family: 'Arapey', serif;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.lead {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Verdana', sans-serif;
+  color: #000000;
+  text-align: center;
+}
+
+.button {
+  background: #EBAC87;
+  border-radius: 10px;
+  border: 0;
+  padding: 24px 50px;
+  text-transform: uppercase;
+  font-family: 'Arapey', serif;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bullet {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #9DB0D1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-left: 50px;
+  margin-right: 15px;
+}
+
+.benefits {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Verdana', sans-serif;
+  color: #000000;
+  margin: 0 10px 0 0;
+  flex: 0 1 300px;
+}
+
+.caption {
+  background: url(img/bg-cloud.png) repeat-x top / auto 200px, linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  padding: 250px 120px 100px;
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.container1 {
+  background: #87C6EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textcolumn {
+  font-family: 'Verdana';
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 20px;
+  text-align: start;
+  display: inline-block;
+}
+
+.lead2 {
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  margin-bottom: 50px;
+  color: #FFFFFF;
+}
+
+.lead3 {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.pixel {
+  width: 350px;
+  height: 560px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 37.5px;
+  margin-left: 37.5px;
+  margin-bottom: 35px;
+}
+
+.circleorange {
+  width: 60px;
+  height: 60px;
+  background: #EBAC8766;
+  border-radius: 50%;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 12px;
+}
+
+.circleorange1 {
+  width: 60px;
+  height: 60px;
+  background: rgba(235, 172, 135, 0.6);
+  border-radius: 50%;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 12px;
+}
+
+.circleorange2 {
+  width: 60px;
+  height: 60px;
+  background: #EBAC87;
+  border-radius: 50%;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 12px;
+}
+
+.square {
+  width: 310px;
+  height: 310px;
+  background: #EBAC87;
+  margin-top: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.number {
+  font-family: 'Verdana';
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.container2 {
+  width: 600px;
+}
+
+.container3 {
+  width: 600px;
+  height: 475px;
+  background: url(img/bg-mount.png) repeat-x top / auto 475px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button1 {
+  background: #ffffff;
+  border-radius: 10px;
+  border: 0;
+  padding: 24px 50px;
+  text-transform: uppercase;
+  font-family: 'Arapey', serif;
+  font-size: 30px;
+  color: #EBAC87;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.circlehelp {
+  width: 80px;
+  height: 80px;
+  background: #EBAC87;
+  border-radius: 50%;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 10px;
+  margin-top: 345px;
+}
+
+.help {
+  font-family: 'Verdana';
+  font-size: 60px;
+  color: #FFFFFF;
+}
+
+.container4 {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container5 {
+  width: 180.06px;
+  display: flex;
+  justify-content: space-around;
+}
+
+bold{
+ font-weight:bold;
+}
